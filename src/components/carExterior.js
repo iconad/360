@@ -30,7 +30,7 @@ const CarExteriorComponent = (props) => {
   const [totalActiveComp, setTotalActiveComp] = useState(0);
 
   const totalAngle = 36;
-
+// test
   useEffect(() => {
     if (!!carState) {
       console.log(carState);
